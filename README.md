@@ -40,7 +40,24 @@
 - Emergency_Intervention
 
 ---
+# 🔗 Entity Relationships
 
+- Student → Mental Health Survey (One-to-Many)
+- Student → Therapy Session (One-to-Many)
+- Therapist → Therapy Session (One-to-Many)
+- Student → Diagnosis (One-to-Many)
+- Student → Medical History (One-to-Many)
+- Diagnosis → Treatment (One-to-Many)
+- Medical History → Treatment (One-to-Many)
+- Student → Medication (One-to-Many)
+- Student → Assessment (One-to-Many)
+- Student → Observation (One-to-Many)
+- Student → Emergency Intervention (One-to-Many)
+- Student ↔ Mental Health Support Group (Many-to-Many)
+- Student → Attendance (One-to-Many)
+- Support Group → Attendance (One-to-Many)
+---
+  
 # ✨ Key Features
 
 - Stores and manages student mental health records
